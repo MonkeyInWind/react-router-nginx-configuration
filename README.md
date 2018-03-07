@@ -1,7 +1,7 @@
 # 项目用了react-router 并且前端和服务端在同一项目nginx的配置
 
 react项目用了react-router放到服务器上开了node服务 配置nginx
-  server {""
+  server {  
   	server_name xxx.xxxxxxx.com;
   	location / {
   		proxy_pass http://11.11.11.11:1111/; (node服务端口)
